@@ -31,12 +31,10 @@ describe('Round', function() {
   });
 
   it('should be a function', function() {
-    // const round = new Round();
     expect(Round).to.be.a('function');
   });
 
   it('should be an instance of round', function() {
-    // const round = new Round();
     expect(round1).to.be.an.instanceof(Round);
   }); 
 
@@ -45,7 +43,6 @@ describe('Round', function() {
   });
 
   it('should updates turns count, , gives feedback, and stores ids of incorrect guesses', function() {
-    // expect(round1.takeTurn()).to.equal('incorrect!');
     expect(round1.turns).to.equal(0);
   });
 
@@ -59,7 +56,6 @@ describe('Round', function() {
 
   it('should store ids of incorrect guesses', function() {
     round1.takeTurn(turn1.guess);
-    // round1.takeTurn(turn2.guess);
 
     expect(round1.incorrectGuess).to.deep.equal([1]);
   });

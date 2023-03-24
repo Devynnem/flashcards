@@ -19,13 +19,9 @@ class Round {
     this.turns += 1;
     if (!this.currentTurn.evaluateGuess()) {
       this.incorrectGuess.push(this.currentCard.id)
-      // console.log('incorrect guess', this.incorrectGuess);
-      // console.log('turns', this.turns)
     }
     this.currentCard = this.cards[this.turns];
-    // console.log('currentCard', this.currentCard)
     return this.currentTurn.giveFeedback();
-    // this.endRound();
   };
 
   calculatePercentCorrect() {

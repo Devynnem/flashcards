@@ -8,7 +8,6 @@ describe('Turn', function() {
   let card1;
   let card2;
   let card3;
-  // let turn;
   let turn1;
   let turn2;
 
@@ -16,7 +15,6 @@ describe('Turn', function() {
     card1 = new Card(1, "What allows you to define a set of related information using key-value pairs?", ["object", "array", "function"], "object");
     card2 = new Card(2, "What is a comma-separated list of related values?", ["array", "object", "function"], "array");
     card3 = new Card(3, "What type of prototype method directly modifies the existing array?", ["mutator method", "accessor method", "iteration method"], "mutator method");
-    // turn = new Turn();
     turn1 = new Turn('for loop', card1);
     turn2 = new Turn('array', card2);
 
