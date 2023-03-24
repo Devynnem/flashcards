@@ -83,7 +83,6 @@ const prototypeData = [{
   "id": 17,
   "question": "What does the reduce() method take in?",
   "answers": ["callback function and initializer", "callback function and current element", "callback function and accumulator"],
-  "correctAnswer": "callback function and initializer"
 }, {
   "id": 18,
   "question": "What does the callback function for the map() method take in?",
